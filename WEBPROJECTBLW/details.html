@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    <header>
+        <h2 class="logo"><img src="Daco_3987834.png" alt="Logo" height="80px" width="80px"></h2>
+    </header>
+
+
+    <div class="wrapper">
+        <div class="form-box details"> 
+            <h2>Enter Details</h2>
+            <form action="connect.php" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="card-outline"></ion-icon></span>
+                    <input type="number" required name="BillN">
+                    <label >Bill No.</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="albums-outline"></ion-icon></span>
+                    <input type="text" required name="Description">
+                    <label >Description</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="cash-outline"></ion-icon></span>
+                    <input type="number" required name="ClaimedA">
+                    <label >Claimed Amount</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="cash-outline"></ion-icon></span>
+                    <input type="number" required name="PassedA">
+                    <label >Passed Amount</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="cash-outline"></ion-icon></span>
+                    <input type="number" required name="Deduction">
+                    <label >Deduction</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="barcode-outline"></ion-icon></span>
+                    <input type="number" required name="VendorC">
+                    <label >Vendor Code</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="accessibility-outline"></ion-icon></span>
+                    <input type="text" required name="VendorN">
+                    <label >Vendor Name</label>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script1.js">
+    </script>  
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
